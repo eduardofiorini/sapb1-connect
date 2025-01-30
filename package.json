@@ -4,10 +4,7 @@
   "description": "A Node.js library for connecting and interacting with SAP Business One, HANA, and SQL Server.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "build": "tsc",
-    "prepare": "npm run build",
-    "doc": "jsdoc -c jsdoc.json"
+    "test": "echo \"No test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -29,10 +26,5 @@
     "@sap/hana-client": "^2.14.26",
     "mssql": "^9.1.1",
     "axios": "^1.6.2"
-  },
-  "devDependencies": {
-    "jest": "^29.0.0",
-    "typescript": "^5.0.0",
-    "jsdoc": "^4.0.0"
   }
 }
