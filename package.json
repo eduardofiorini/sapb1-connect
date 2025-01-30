@@ -1,0 +1,38 @@
+{
+  "name": "sapb1-connect",
+  "version": "1.0.0",
+  "description": "A Node.js library for connecting and interacting with SAP Business One, HANA, and SQL Server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seuusuario/sapb1-connect.git"
+  },
+  "keywords": [
+    "SAP",
+    "SAPB1",
+    "BusinessOne",
+    "HANA",
+    "SQLServer",
+    "ServiceLayer",
+    "NodeJS"
+  ],
+  "author": "Eduardo Fiorini",
+  "homepage": "https://eduardofiorini.com",
+  "license": "MIT",
+  "dependencies": {
+    "@sap/hana-client": "^2.14.26",
+    "mssql": "^9.1.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "jsdoc": "^4.0.0"
+  }
+}
