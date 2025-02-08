@@ -168,3 +168,10 @@ npm run doc
 
 MIT License
 
+## ☕ I love coffee! 
+
+If you want to buy me a coffee: <br> 
+https://www.buymeacoffee.com/eduardofiorini <br><br>
+I will be very happy :)
+
+
